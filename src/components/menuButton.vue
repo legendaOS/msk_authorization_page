@@ -1,19 +1,17 @@
 <template>
-    <div class="menu-button">
-        <img class="vector point" src="../assets/vector.svg" />
-        <div class="xmark"><img class="edit" src="../assets/edit-1.svg" /></div>
-    </div>
+  <div class="menu-button">
+    <img class="vector point" src="../assets/vector.svg" />
+    <div class="xmark"><img class="edit" src="../assets/edit-1.svg" /></div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'menu-button',
-  data: function (){
-    return {
-      
-    }
-  }
-}
+  name: "menu-button",
+  data: function () {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
@@ -29,11 +27,11 @@ export default {
   border-radius: 12px;
 }
 
-img{
-    cursor: pointer;
+img {
+  cursor: pointer;
 }
 
-.xmark{
-    cursor: pointer;
+.xmark {
+  cursor: pointer;
 }
 </style>

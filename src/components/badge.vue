@@ -1,17 +1,17 @@
 <template>
-<div class="badge-express-wrapper">
+  <div class="badge-express-wrapper">
     <a href="#">
-        <div class="badge-express">
-            <div class="feature"><div class="text op0">Где это?</div></div>
-        </div>
+      <div class="badge-express">
+        <div class="feature"><div class="text op0">Где это?</div></div>
+      </div>
     </a>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'badge-express-wrapper'
-}
+  name: "badge-express-wrapper",
+};
 </script>
 
 <style scoped>
@@ -36,7 +36,7 @@ export default {
   position: relative;
 }
 
-.op0{
+.op0 {
   opacity: 0;
   border: none;
 }
